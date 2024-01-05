@@ -92,6 +92,12 @@ margin-bottom:30px;
 }
 .content{
     max-width: 500px;}
+    /* main section */
+    main{
+        max-width: 1140px;
+        /* justify-content: center; */
+        margin: 0 auto;
+    }
 
 .sectitle{
     color: var(--Dark-01, #181818);
@@ -116,4 +122,13 @@ text-align: center;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
+}
+.aboutinfo-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.abtinfo{
+    text-align: center;
+    /* margin-left: 50px;
+    margin-right: 50px; */
 }

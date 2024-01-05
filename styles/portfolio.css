@@ -49,15 +49,71 @@ padding: 15px 36px;
 /* header related style */
 .head{
     background-color: #FFF8F3;
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 } 
 .banner .profilepic{
 
 width: 584px;
 height: 676px;
 flex-shrink: 0;
+}
+.greeting{
+    font-size: 45px;
+    color: var(--Dark-02, #474747);
+margin-bottom: 0px;
+
+}
+.title{
+
+font-size: 85px;
+
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+
+}
+.discription{
+    color: var(--Dark-03, #757575);
+
+font-size: 18
+font-weight: 400;
+margin-top:0px;
+margin-bottom:30px;
+
+
+}
+.content{
+    max-width: 500px;}
+
+.sectitle{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about{
+    padding: 130px;
+    text-align: center;
+    margin: 130px 0;
+    border-radius: 10px;
+background: #FFF8F3;
+
+}
+
+.secdescrip{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
 }
